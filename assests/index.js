@@ -1,4 +1,4 @@
-import Glow from './Glow.png'
+import Glow from './Glow.svg'
 import CMCPAC from './CMCPAC.png'
 import Rtist from './Rtist.png'
 

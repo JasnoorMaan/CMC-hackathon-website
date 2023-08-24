@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import { Glow } from '@/assests'
-import { Navbar, Prize, Organizers, Timeline } from '@/components'
+import { Navbar, Prize, Organizers, Timeline, FAQ } from '@/components'
 
 export default function Home() {
   return (
@@ -9,6 +9,7 @@ export default function Home() {
     <Navbar/>
     <Prize/>
     <Timeline/>
+    <FAQ/>
     <Organizers/>
     </div>
   )

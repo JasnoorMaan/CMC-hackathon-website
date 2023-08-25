@@ -34,13 +34,10 @@ const Hero = () => {
        
         HACKING HEALTH
       </div>
-      <div className="flex bg-[#C086EA] text-white mb-10 mt-20 p-2 rounded-2xl text-xl font-semibold">
+      <div className="flex bg-[#C086EA] text-white mb-10 mt-20 p-4 px-5 rounded-2xl text-xl font-semibold">
         {" "}
         <a href="placeholder-link">Register</a>{" "}
-      </div>
-      <div className="flex text-white text-xl font-semibold">
-        {" "}
-        <a href="placeholder-link" >Join <span className=" italic underline">Discord</span></a>{" "}
+        <a href="placeholder-link2" >Join Discord</a>{" "}
       </div>
     </div>
   );

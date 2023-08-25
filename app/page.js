@@ -13,24 +13,30 @@ import {
 
 export default function Home() {
   return (
-    <div className=" relative  bg-[#1E1E1E]">
+    <div className="relative bg-[#1E1E1E]">
       <Image
         src={Glow}
-        width={400}
-        height={400}
-        className="absolute top-12 md:left-1/3 z-0 overflow-hidden rotate-180"
+        width={600}
+        height={600}
+        className="absolute top-[18%] md:left-[40%] z-0 overflow-hidden rotate-180"
       />
       <Image
         src={Glow}
-        width={400}
-        height={400}
-        className="absolute top-[48%] -left-10 z-0 overflow-hidden rotate-90"
+        width={500}
+        height={500}
+        className="absolute top-[23%] -left-10 z-0 overflow-hidden rotate-90"
       />
       <Image
         src={Glow}
-        width={400}
-        height={400}
-        className="absolute top-[38%] right-0 z-0 overflow-hidden -rotate-90"
+        width={500}
+        height={500}
+        className="absolute top-[58%] -left-10 z-0 overflow-hidden rotate-90"
+      />
+      <Image
+        src={Glow}
+        width={600}
+        height={600}
+        className="absolute top-[48%] right-0 z-0 overflow-hidden -rotate-90"
       />
       <Image
         src={Glow}

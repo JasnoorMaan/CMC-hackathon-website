@@ -1,9 +1,9 @@
 const About = () => {
   return (
-    <div className="flex flex-col w-4/5 mx-[10%] blurBlackground rounded-3xl justify-center items-center pt-10 pb-2 bg-gradient-to-br from-white/10 via-transparent to-transparent backdrop-blur-md rounded-lg">
+    <div className="flex flex-col w-4/5 mx-[10%] bg-[#0F2D3A] rounded-3xl justify-center items-center pt-10 pb-2">
       <h1 className=" font-semibold font-sans text-4xl text-white">About</h1>
       <div className="flex flex-col md:flex-row">
-        <div className="flex flex-col wrap pt-14 pb-8 px-8">
+        <div className="flex flex-col wrap pt-14 pb-8 px-1">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed
             magna sem. Nullam scelerisque commodo erat. Praesent ac volutpat

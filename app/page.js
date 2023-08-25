@@ -14,7 +14,7 @@ import {
 
 export default function Home() {
   return (
-    <div className="relative bg-[#1E1E1E]">
+    <div className="relative bg-[#010E15]">
       <Image
         src={Glow}
         width={600}

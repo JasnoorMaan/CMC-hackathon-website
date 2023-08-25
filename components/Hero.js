@@ -30,15 +30,18 @@ const Hero = () => {
         />
       </div>
 
-      <div className="flex text-white text-5xl md:text-7xl font-bold tracking-{5%} w-{8px} px-23 h-{177px} mx-3 mt-20 translate-y-204 justify-center align-middle text-center">
-       
-        HACKING HEALTH
+      <div className="flex text-white text-5xl md:text-7xl font-bold tracking-{5%} w-{8px} px-23 h-{177px} mx-3 mt-40 translate-y-204 justify-center align-middle text-center">
+       HACKING HEALTH
       </div>
-      <div className="flex bg-[#C086EA] text-white mb-10 mt-20 p-4 px-5 rounded-2xl text-xl font-semibold">
-        {" "}
-        <a href="placeholder-link">Register</a>{" "}
-        <a href="placeholder-link2" >Join Discord</a>{" "}
+      <div className="flex text-white text-3xl md:text-3xl font-normal tracking-{5%} w-{8px} px-23 h-{177px} mx-3 mt-7 translate-y-204 justify-center align-middle text-center">
+      Code a Better Future at Hacking Health!
       </div>
+
+      <div className="flex text-white mb-10 mt-40 p-4 px-5 rounded-2xl text-xl font-semibold space-x-60">
+  <a href="placeholder-link" className="py-3 px-6 bg-[#C086EA] hover:bg-blue-600 rounded-lg transition duration-300 ">Register at DevFolio</a>
+  <a href="placeholder-link2" className="py-3 px-6 bg-[#C086EA] hover:bg-blue-600 rounded-lg transition duration-300 ">Join Discord</a>
+</div>
+
     </div>
   );
 };

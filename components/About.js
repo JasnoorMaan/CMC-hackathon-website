@@ -1,7 +1,7 @@
 const About = () => {
   return (
     <div className="flex flex-col w-4/5 mx-[10%] blurBlackground rounded-3xl justify-center items-center pt-8 pb-8">
-      <h1 className=" font-semibold font-sans text-4xl text-white">About</h1>
+      <h1 className=" font-bold font-sans text-4xl text-white">About</h1>
       <div className="flex flex-col md:flex-row">
         <div className="flex flex-col text-[#D4D0D3] wrap pt-12 pb-12 pl-12 pr-4">
           <p>

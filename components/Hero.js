@@ -7,41 +7,38 @@ const Hero = () => {
       <div className=""></div>
 
       <div className="absolute z-10 top-0 left-0 h-20 w-24 md:h-32 md:w-40">
-        <Image
-          className="mx-0 my-95"
-          src={MedicalShield}
-          alt="MedShield"
-        />
+        <Image className="mx-0 my-95" src={MedicalShield} alt="MedShield" />
       </div>
 
       <div className="absolute z-10 top-0 right-0 h-20 w-24 md:h-32 md:w-40">
-        <Image
-          className="mx-0 my-95"
-          src={Arduino}
-          alt="Arduino"
-        />
+        <Image className="mx-0 my-95" src={Arduino} alt="Arduino" />
       </div>
 
       <div className="absolute z-10 bottom-10 right-0 h-20 w-24 md:h-32 md:w-40">
-        <Image
-          className="mx-0 my-95"
-          src={RoboticArm}
-          alt="RoboticArm"
-        />
+        <Image className="mx-0 my-95" src={RoboticArm} alt="RoboticArm" />
       </div>
 
       <div className="flex text-white text-5xl md:text-7xl font-bold tracking-{5%} w-{8px} px-23 h-{177px} mx-3 mt-40 translate-y-204 justify-center align-middle text-center">
-       HACKING HEALTH
+        HACKING HEALTH
       </div>
       <div className="flex text-white text-3xl md:text-3xl font-normal tracking-{5%} w-{8px} px-23 h-{177px} mx-3 mt-7 translate-y-204 justify-center align-middle text-center">
-      Code a Better Future at Hacking Health!
+        Code a Better Future at Hacking Health!
       </div>
 
-      <div className="flex text-white mb-10 mt-40 p-4 px-5 rounded-2xl text-xl font-semibold space-x-60">
-  <a href="placeholder-link" className="py-3 px-6 bg-[#C086EA] hover:bg-blue-600 rounded-lg transition duration-300 ">Register at DevFolio</a>
-  <a href="placeholder-link2" className="py-3 px-6 bg-[#C086EA] hover:bg-blue-600 rounded-lg transition duration-300 ">Join Discord</a>
-</div>
-
+      <div className="flex text-white mb-10 mt-40 p-4 px-5 rounded-2xl text-xl font-semibold space-x-20 sm:space-x-60">
+        <a
+          href="placeholder-link"
+          className="py-3 px-6 bg-[#C086EA] hover:bg-blue-600 rounded-lg transition duration-300 "
+        >
+          Register at DevFolio
+        </a>
+        <a
+          href="placeholder-link2"
+          className="py-3 px-6 bg-[#C086EA] hover:bg-blue-600 rounded-lg transition duration-300 "
+        >
+          Join Discord
+        </a>
+      </div>
     </div>
   );
 };

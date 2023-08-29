@@ -48,12 +48,20 @@ export default function Home() {
       <div className="z-10 relative">
         <Navbar />
         <Hero />
-        <About />
+        <div id="about">
+          <About />
+        </div>
         <Prize />
-        <Timeline />
-        <Sponsors />
-        <FAQ />
-        <Organizers />
+        <div id="timeline">
+          <Timeline />
+        </div>
+          <Sponsors />
+        <div id="faq">
+          <FAQ />
+        </div>
+        <div id="organizers">
+          <Organizers />
+        </div>
         <Footer />
       </div>
     </div>

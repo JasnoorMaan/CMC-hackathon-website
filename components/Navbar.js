@@ -10,9 +10,9 @@ const Navbar = () => {
   };
 
   return (
-    <div className="flex justify-between px-20 font-sans font-semibold text-white">
-      <p className="py-8 text-3xl md:py-3">Rtist X CMCPAC</p>
-      <ul className="hidden md:flex flex-row justify-between w-1/3 text-lg items-center md:visible ">
+    <div className="flex justify-between px-4 font-sans font-bold text-white">
+      <p className="p-4 text-2xl md:py-3">Rtist X PAC</p>
+      <ul className="hidden md:flex flex-row justify-between w-1/3 text-lg items-center md:visible md:z-1000 ">
         <li className="hover:text-stone-400 px-2">
           <ScrollLink
             activeClass="active"
